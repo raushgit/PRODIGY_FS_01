@@ -15,7 +15,6 @@ app.use(cookieParser());
 app.use('/api', router);
 
 
-
 app.listen(port, () => {
     console.log(`Server is listening on http://localhost:${port}`);
 });
