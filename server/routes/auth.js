@@ -116,7 +116,6 @@ router.post('/login', upload.none(), async (req, res) => {
     }
 });
 
-
 router.get('/fetchInfos', async (req, res) => {
     try {
         // Get the user from the token
