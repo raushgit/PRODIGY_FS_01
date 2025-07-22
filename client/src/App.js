@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Form from "./components/Form";
 import UserInfos from "./components/UserInfos";
 
-
 function App() {
   return (
     <div className="text-sm lg:text-lg flex flex-col items-center mt-16">
