@@ -3,7 +3,7 @@ require('dotenv').config();
 const cookieParser = require('cookie-parser'); 
 const path = require('path');
 const router = require('./routes/auth');
-
+ 
 const port = process.env.PORT || 5000 ;
 
 const app = express(); 
