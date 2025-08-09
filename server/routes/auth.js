@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
- 
+
 const pool = require('../db/connection');
 const upload = require('../utils/multerConfig');
 const { hashPassword, verifyPassword } = require('../utils/managePassword');
