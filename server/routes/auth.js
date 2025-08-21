@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const pool = require('../db/connection');
 const upload = require('../utils/multerConfig');
-const { hashPassword, verifyPassword } = require('../utils/managePassword');
+const { hashPassword, verifyPassword } = require('../utils/managePassword'); 
 
 router.get('/logout', async (req, res) => {
     try {
