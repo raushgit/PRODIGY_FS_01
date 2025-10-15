@@ -2,6 +2,9 @@ const mysql = require('mysql');
 require('dotenv').config();
 
 
+
+// rrequire('jsonswebtoken');
+
 const pool = mysql.createPool({
     connectionLimit: 10,
     host: process.env.DB_HOST,
