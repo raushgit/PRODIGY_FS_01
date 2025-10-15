@@ -1,5 +1,11 @@
-const router = require('express').Router();
-const jwt = require('jsonwebtoken');
+CONST router = require('express').Router();
+cosnt jwt = require("jsonwebtoken")
+
+
+//const router = require('express').Router();
+//const jwt = require('jsonwebtoken');
+
+
 require('dotenv').config();
 
 const pool = require('../db/connection');
